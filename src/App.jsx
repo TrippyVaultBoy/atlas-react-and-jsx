@@ -10,21 +10,23 @@ function App() {
       <Header />
       
       <Section title="What is react?">
-        <p>Laboris irure enim exercitation incididunt amet culpa sit cillum et elit do enim. Voluptate commodo eu consectetur laboris ea consequat pariatur cillum anim labore fugiat pariatur. Ea duis sint mollit quis culpa cupidatat sunt quis cillum. Reprehenderit laboris mollit cupidatat ullamco aliqua aliqua sunt culpa commodo ea. Est ipsum esse aute cupidatat. Qui anim amet aute voluptate incididunt labore duis proident fugiat excepteur irure.</p>
+        <p>React is a free and open-source front-end JavaScript library developed by Facebook (Meta) for building user interfaces. It uses a component-based architecture and a virtual DOM to make creating interactive and dynamic UIs easier and more efficient.</p>
       </Section>
       
       <Section title="Benefits of react">
         <ul>
-          <li>Commodo excepteur do ea aliquip eu commodo.</li>
-          <li>Sint fugiat labore elit quis aute in.</li>
-          <li>Aute aliquip sint tempor enim pariatur incididunt irure consectetur.</li>
+          <li>Component-Based Architecture</li>
+          <li>Virtual DOM for Performance</li>
+          <li>Declarative Syntax</li>
+          <li>Strong Ecosystem</li>
+          <li>JSX Syntax</li>
         </ul>
       </Section>
 
       <Section title="Helpful resources">
         <HelpfulResource label="Target='_blank' - the most underestimated vulnerability ever" link="https://www.jitbit.com/alexblog/256-targetblank---the-most-underestimated-vulnerability-ever/"/>
-        <HelpfulResource label="Eiusmod ipsum mollit est consectetur" link=""/>
-        <HelpfulResource label="Veniam qui fugiat elit magna nostrud" link=""/>
+        <HelpfulResource label="What is JSX?" link="https://atlas-jswank.github.io/blog/jsx/#event-handling"/>
+        <HelpfulResource label="W3 Schools React Tutorial" link="https://www.w3schools.com/react/default.asp"/>
       </Section>
 
       <AboutMe/>
